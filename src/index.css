@@ -1,4 +1,6 @@
-:root {
+@import "tailwindcss";
+
+t {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -42,12 +44,14 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ab9ee4f5;
+  color: w;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
   border-color: #646cff;
+  background-color: #98bce6;
 }
 button:focus,
 button:focus-visible {
