@@ -80,12 +80,3 @@ src/
 - **404 Handling**: Invalid routes show a custom 404 page.
 - **Error Handling**: Any runtime error is caught and displayed by the error boundary.
 
-## Best Practices Used
-
-- Modular file structure
-- Clean, readable code
-- Type safety (if using TypeScript)
-- Modern React Router patterns
-- Tailwind CSS for utility-first styling
-- Lazy loading for performance
-- Error boundaries for robustness
