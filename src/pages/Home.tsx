@@ -11,23 +11,18 @@ export default function Home() {
       </p>
       <Link
         to="/services"
-        className="text-blue-600 underline hover:text-blue-800 text-lg"
+        className="text-blue-600  hover:text-blue-800 text-lg"
       >
-        Go to Services (text link)
+        Go to Services 
       </Link>
       <a
         href="https://google.com"
         target="_blank"
         rel="noopener noreferrer"
-        className=" text-gray-500 hover:text-blue-600 underline text-center"
+        className=" text-gray-500 hover:text-blue-600  text-center"
       >
         React Docs
       </a>
-      <button className="mt-4 hover:bg-blue-500 ">
-        <Link to="/contact">
-          Contact Us
-        </Link>
-      </button>
     </div>
   );
 }
